@@ -1,0 +1,115 @@
+
+.logowidth{
+    width: 100%;
+}
+img {
+    width: 45%;
+}
+.logo {
+    scale: 30%;   
+}
+.pizza{
+    scale: 100%;
+    width: 650px;
+}
+body {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+div {
+    margin: auto;
+    width: 65%;
+    border:4px;
+    border-color: green;
+    padding: 5px;
+    align-content: center;
+}
+
+
+
+.logodesc {
+
+    margin: auto;
+    background-color: rgb(253, 251, 241);
+    height: 20px;
+    padding-top: 10px;
+    line-height: 10px;
+    border-style: solid;
+    border-top: 4px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 3px;
+    border-top-style: solid;
+    color: darkgreen;
+    border-top-color: rgb(254, 235, 184)
+}
+
+.recipe_title_1{
+    text-align: center;
+    font-family: "Georgia";
+    padding-left: 155;
+    padding-right: 185;
+    font-size: 25px;
+}
+
+.recipe_title_2{
+    text-align: center;
+    font-family: "Georgia";
+    padding-left: 205;
+    padding-right: 195;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.image_credits{
+    color: gray;
+    margin: 20px;
+}
+
+.hypertext {
+
+}
+
+.desc_focaccia {
+    text-align: center;
+    line-height-step: 1px;
+    line-height: 1px;
+    margin: 13px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.bottom_text {
+    margin: center;
+    text-align: justify;
+    list-style-position:outside;
+}
+
+.link_featured_1{
+    text-align: left;
+    padding-left: 2px;
+    font-size: small;
+    font: bold;
+    border-left-color: rgb(255, 236, 188);
+    border-left: 3px;
+    border-left-style: solid;
+    margin: 0px;
+}
+.link_featured_2{
+    text-align: left;
+    padding-left: 2px;
+    font-size: small;
+    font: bold;
+    border-left-color: rgb(255, 236, 188);
+    border-left: 3px;
+    border-left-style: solid;
+    margin: 0px;
+}
+
+.featured {
+    margin: auto;
+}
