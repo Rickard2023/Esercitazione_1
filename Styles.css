@@ -1,17 +1,4 @@
 
-.logowidth{
-    width: 100%;
-}
-img {
-    width: 45%;
-}
-.logo {
-    scale: 30%;   
-}
-.pizza{
-    scale: 100%;
-    width: 650px;
-}
 body {
     align-content: center;
     align-items: center;
@@ -28,15 +15,21 @@ div {
     align-content: center;
 }
 
+.top {
+    width: 100%;
+}
 
+.img_logo{
+    margin: auto;
+    width: 150px;
+    margin: 10px;
+}
 
-.logodesc {
-
+.bar{
     margin: auto;
     background-color: rgb(253, 251, 241);
-    height: 20px;
-    padding-top: 10px;
-    line-height: 10px;
+    padding-top: 20px;
+    line-height: 0px;
     border-style: solid;
     border-top: 4px;
     border-bottom: 0px;
@@ -45,71 +38,91 @@ div {
     border-top: 3px;
     border-top-style: solid;
     color: darkgreen;
-    border-top-color: rgb(254, 235, 184)
+    border-top-color: rgb(254, 235, 184);
+    height: 25px;
+
 }
 
-.recipe_title_1{
+.recipe_title {
     text-align: center;
     font-family: "Georgia";
-    padding-left: 155;
-    padding-right: 185;
+    padding-left: 135px;
+    padding-right: 185px;
+    padding-top: 20px;
     font-size: 25px;
 }
 
-.recipe_title_2{
-    text-align: center;
-    font-family: "Georgia";
-    padding-left: 205;
-    padding-right: 195;
-    font-size: 25px;
-    margin-top: -20px;
+.desc_bread {
+    text-align: justify;
+    line-height: 2px;
+    margin: 13px;
+    padding-right: 40px;
+    padding-left: 55px;
 }
 
-.image_credits{
+.img_pizza{
+    scale: 100%;
+    width: 650px;
+}
+
+.img_credits{
     color: gray;
     margin: 20px;
 }
 
-.hypertext {
-
+.link_head {
+    color: rgb(172, 96, 4);
+    font-weight: bolder;
+    text-align: left;
+    font-size: large;
+    padding-left: 2px;
+    border-left: 3px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 236, 188);
+    margin: 0px;
 }
-
-.desc_focaccia {
-    text-align: center;
-    line-height-step: 1px;
-    line-height: 1px;
-    margin: 13px;
-    padding-right: 50px;
-    padding-left: 50px;
+.link_text {
+    color: rgb(3, 83, 83);
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: left;
+    font-size: medium;
+    padding-left: 2px;
+    border-left: 3px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 236, 188);
+    margin: 0px;
 }
 
 .bottom_text {
     margin: center;
     text-align: justify;
     list-style-position:outside;
+    line-height: 175%;
 }
 
-.link_featured_1{
-    text-align: left;
-    padding-left: 2px;
-    font-size: small;
-    font: bold;
-    border-left-color: rgb(255, 236, 188);
-    border-left: 3px;
-    border-left-style: solid;
-    margin: 0px;
+.list_titles {
+  font-size: medium;
 }
-.link_featured_2{
-    text-align: left;
-    padding-left: 2px;
-    font-size: small;
-    font: bold;
-    border-left-color: rgb(255, 236, 188);
-    border-left: 3px;
-    border-left-style: solid;
+
+.bottom_titles {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight:  bolder;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(199,243,242);
+    padding-bottom: 10px;
     margin: 0px;
 }
 
-.featured {
-    margin: auto;
+.text_method {
+    text-align: justify;
+    margin: 0px;
+    line-height: 15px;
+}
+
+.bottom_link {
+
+   margin: auto;
 }
